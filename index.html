@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prajwal K S – Marriage Biodata</title>
+  <meta name="description" content="Marriage biodata of Prajwal K S – Software Engineer, MCA graduate from University of Mysore. A calm, responsible and family-oriented individual from Maddur, Karnataka." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <!-- HEADER -->
+  <header class="profile-header" id="header">
+    <div class="header-bg-pattern"></div>
+    <div class="header-content">
+      <div class="profile-photo-wrap" onclick="openFullPhoto()" title="Click to view full size">
+        <div class="photo-ring-outer">
+          <div class="photo-ring-inner">
+            <img
+              src="prajwal-profile.jpg"
+              alt="Prajwal K S"
+              class="profile-photo"
+              id="profilePhoto"
+              style="cursor: pointer;"
+              onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Prajwal+KS&size=200&background=c9a84c&color=fff&bold=true&font-size=0.4'; document.querySelector('.photo-instruction').innerText='(Unable to load profile photo)';"
+            />
+          </div>
+        </div>
+      </div>
+      <p class="photo-instruction">(Click to view full photo)</p>
+      <div class="om-symbol">ॐ</div>
+      <h1 class="profile-name" id="profileName">Prajwal K S</h1>
+      <p class="profile-title">Marriage Profile</p>
+      <div class="gold-divider">
+        <span class="divider-line"></span>
+        <span class="divider-diamond">◆</span>
+        <span class="divider-line"></span>
+      </div>
+      <div class="header-badges" id="headerBadges">
+        <span class="badge" id="badgeAge">Age: 25</span>
+        <span class="badge" id="badgeReligion">Hindu · Vokkaliga Gowda</span>
+        <span class="badge" id="badgeJob">Software Engineer</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <!-- About Me -->
+    <section class="card reveal" id="section-about">
+      <div class="section-header">
+        <span class="section-icon">✿</span>
+        <h2 class="section-title">About Me</h2>
+        <span class="section-icon">✿</span>
+      </div>
+      <p class="about-text" id="aboutText">Loading...</p>
+    </section>
+
+    <!-- Basic Details -->
+    <section class="card reveal" id="section-basic">
+      <div class="section-header">
+        <span class="section-icon">✿</span>
+        <h2 class="section-title">Basic Details</h2>
+        <span class="section-icon">✿</span>
+      </div>
+      <div class="details-grid" id="basicGrid">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- Family Details -->
+    <section class="card reveal" id="section-family">
+      <div class="section-header">
+        <span class="section-icon">✿</span>
+        <h2 class="section-title">Family Details</h2>
+        <span class="section-icon">✿</span>
+      </div>
+      <div class="details-grid" id="familyGrid">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- Education & Career -->
+    <section class="card reveal" id="section-career">
+      <div class="section-header">
+        <span class="section-icon">✿</span>
+        <h2 class="section-title">Education &amp; Career</h2>
+        <span class="section-icon">✿</span>
+      </div>
+      <div class="career-blocks" id="careerBlocks">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="card reveal" id="section-contact">
+      <div class="section-header">
+        <span class="section-icon">✿</span>
+        <h2 class="section-title">Contact Information</h2>
+        <span class="section-icon">✿</span>
+      </div>
+      <div class="contact-wrap" id="contactWrap">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- Action Buttons -->
+    <div class="action-buttons reveal">
+      <button class="btn btn-primary" id="btnDownload" onclick="downloadPDF()">
+        <span class="btn-icon">⬇</span> Download Biodata (PDF)
+      </button>
+      <button class="btn btn-whatsapp" id="btnWhatsapp" onclick="shareWhatsApp()">
+        <span class="btn-icon">💬</span> Share via WhatsApp
+      </button>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-ornament">❧ ◆ ❧</div>
+    <p class="footer-text">With Blessings &amp; Best Wishes</p>
+    <p class="footer-sub">Siddaraju K J &amp; Family · Besagarahalli, Maddur</p>
+  </footer>
+
+  <!-- Print-only watermark -->
+  <div class="print-watermark">Marriage Biodata – Prajwal K S</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
