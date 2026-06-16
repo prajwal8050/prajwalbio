@@ -72,7 +72,8 @@ body {
 =========================== */
 .profile-header {
   position: relative;
-  background: linear-gradient(160deg, #4b3a1b 0%, #362918 40%, #453823 70%, #443721 100%);
+  background: linear-gradient(160deg, rgba(20, 16, 10, 0.6) 0%, rgba(15, 12, 8, 0.8) 50%, rgba(10, 8, 5, 0.9) 100%), url('header-bg.png') no-repeat center center;
+  background-size: cover;
   padding: 60px 20px 70px;
   text-align: center;
   overflow: hidden;
